@@ -1,6 +1,6 @@
 # SimpleText@CLEF-2022 Tasks
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) 
+[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks) | [Tools](./tools) 
 [Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task3)
 
 
@@ -22,21 +22,21 @@ The goal of this task is to provide a simplified version of text passages. Parti
 
 *Output format:*  
 
-Simplified passages in a TSV tabulated file with the following fields:
-* *run_id*: Run ID starting with team_id_
-* *manual*: Whether the run is manual {0,1}
-* *topic_id*: Topic ID 
-* *topic_text*: Topic text
-* *source_passage*: Source passage text 
-* *simplified_passage*: Text of the simplified passage 
+Passagens simplificadas num ficheiro tabelado TSV com os seguintes campos:
+*run_id*: Run ID começando com team_id_
+*manual*: Se a execução é manual {0,1}
+*topic_id*: ID do Tópico 
+*texto_tópico*: Texto do tópico
+*passagem_de_fonte*: Texto da passagem de origem 
+*passage_simplified_passage*: Texto da passagem simplificada 
 
-run_id &nbsp;&nbsp;&nbsp;&nbsp; manual &nbsp;&nbsp;&nbsp;&nbsp; topic_id &nbsp;&nbsp;&nbsp;&nbsp; topic_text &nbsp;&nbsp;&nbsp;&nbsp; doc_id &nbsp;&nbsp;&nbsp;&nbsp; source_passage &nbsp;&nbsp;&nbsp;&nbsp; simplified_passage
+run_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; manual &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; topic_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; topic_text &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; doc_id &nbsp;&nbsp;&nbsp;&nbsp; passagem_fonte &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; passagem_ simplificada
 
-### Evaluation
-The simplified passages will be evaluated manually with eventual use of aggregating metrics.
+### Avaliação
+As passagens simplificadas serão avaliadas manualmente com eventual utilização de métricas de agregação.
 
-OUTPUT example:
+Exemplo de SAÍDA:
 
 | run_id | manual | topic_id | topic_text | doc_id | source_passage | simplified_passage |
 |:-------|:-------|:---------|:-----------|:-------|:---------------|:-------------------|
-| BTU | 1 | 1 | Digital assistants like Siri and Alexa entrench gender biases, says UN | 3003409254 | Automated decision making based on big data and machine learning (ML) algorithms can result in discriminatory decisions against certain protected groups defined upon personal data like gender, race, sexual orientation etc. Such algorithms designed to discover patterns in big data might not only pick up any encoded societal biases in the training data, but even worse, they might reinforce such biases resulting in more severe discrimination. | Automated decision-making may include sexist and racist biases and even reinforce them because their algorithms are based on the most prominent social representation in the dataset they use. |
+| BTU | 1 | 1 | Assistentes digitais como o Siri e Alexa entrincheiram preconceitos de género, diz ONU | 3003409254 | A tomada de decisão automatizada baseada em grandes dados e algoritmos de aprendizagem de máquinas (ML) pode resultar em decisões discriminatórias contra certos grupos protegidos definidos sobre dados pessoais como género, raça, orientação sexual, etc. Tais algoritmos concebidos para descobrir padrões em grandes dados podem não só detectar quaisquer preconceitos sociais codificados nos dados de formação, mas, pior ainda, podem reforçar tais preconceitos resultando numa discriminação mais severa. | A tomada de decisão automatizada pode incluir preconceitos sexistas e racistas e até reforçá-los porque os seus algoritmos se baseiam na representação social mais proeminente no conjunto de dados que utilizam. | 
