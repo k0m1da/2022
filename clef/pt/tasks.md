@@ -1,29 +1,31 @@
-# SimpleText@CLEF-2022 Shared tasks
+# SimpleText@CLEF-2022 Tarefas
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks) | [Tools](./tools) 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/tasks)
 
----
+[Início](./) | [Chamada para papéis](./CFP) | [Datas importantes](./dates) | [Tarefas](./tasks) | [Ferramentas](./tools) 
+[Programa](./program) | [Publicações](./publications) | [Organisadores](./organisers) | [Contactos](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task1)
 
-## SimpleText Shared Task Guidelines
-
-We invite you to submit both automatic and manual runs! Manual intervention should be reported.
 
 ---
 
-<button>[Access](./tasks)</button> | <button>[Shared task 1](./task1)</button> | <button>[Shared task 2](./task2)</button> | <button>[Shared task 3](./task3)</button>| <button>[Unshared task 4](./task4)</button>
+## Linhas de Guia da Tareda SimpleText 
+
+Convidamo-lo a submeter tanto as execuções automáticas como manuais! A intervenção manual deve ser comunicada.
+
+---
+
+<button>[Aceder](./tasks)</button> | <button>[Tarefa partilhada 1](./task1)</button> | <button>[Tarefa partilhada 2](./task2)</button> | <button>[Tarefa partilhada 3](./task3)</button>| <button>[Tarefa não partilhada 4](./task4)</button>
 
 <br>
 
-## Access
-Please register at the SimpleText@CLEF workshop in order to access the data: [https://clef2022.clef-initiative.eu/index.php](https://clef2022.clef-initiative.eu/index.php)  
-After registration, you will receive an email with information on how to get access to the data.
+## Acesso
+Por favor, registar-se no workshop SimpleText@CLEF a fim de aceder aos dados: [https://clef2022.clef-initiative.eu/index.php](https://clef2022.clef-initiative.eu/index.php)  
+Após o registo, receberá um e-mail com informações sobre como obter acesso aos dados.
 
-### Result submission:
-Participants should put their run results into the folder Documents created for their user.
+### Apresentação de resultados:
+Os participantes devem colocar os seus resultados de execução na pasta Documentos criados para o seu utilizador.
 
 ### 2022 DataSet
-For this edition we use the Citation Network Dataset: DBLP+Citation, ACM Citation network ([https://www.aminer.org/citation](https://www.aminer.org/citation)). É fornecido aos participantes um índice de pesquisa elástico acessível através de uma GUI API. Este índice é adequado para:
+Para esta edição utilizamos o Citation Network Dataset: DBLP+Citation, ACM Citation network ([https://www.aminer.org/citation](https://www.aminer.org/citation)). É fornecido aos participantes um índice de pesquisa elástico acessível através de uma GUI API. Este índice é adequado para:
 * aplicar métodos básicos de recuperação de passagens baseados em modelos de IR vectoriais ou linguísticos
 * gerar modelos de alocação de Dirichlet Latente,
 * formar Redes Neuronais Gráficas para recomendação de citação como realizado em [https://stellargraph.readthedocs.io/](https://stellargraph.readthedocs.io/) por exemplo,
