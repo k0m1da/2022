@@ -1,7 +1,7 @@
 # SimpleText@CLEF-2022 Tasks
 
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) 
+[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks) | [Tools](./tools) 
 [Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task1)
 
 
@@ -21,25 +21,25 @@ We invite you to submit both automatic and manual runs! Manual intervention shou
 
 Given an article from a major international newspaper general audience, this task aims at retrieving from a large scientific bibliographic database with abstracts, all passages that would be relevant to illustrate this article. Extracted passages should be adequate to be inserted as plain citations in the original paper. Sentence pooling and automatic metrics will be used to evaluate these results. The relevance of the source document will be evaluated as well as potential unresolved anaphora issues.
 
-*Output format:*  
+*Formato de saída:*  
  
-A maximum of 1000 passages to be included in a simplified summary in a TSV (Tab-Separated Values) file with the following fields:
-* *run_id*: Run ID starting with team_id_
-* *manual*: Whether the run is manual {0,1}
-* *topic_id*: Topic ID
-* *doc_id*: Source document ID
-* *passage*: Text of the selected passage
-* *rank*: Passage rank
+Um máximo de 1000 passagens a serem incluídas num resumo simplificado num ficheiro TSV (Tab-Separated Values) com os seguintes campos:
+*run_id*: Run ID começando com team_id_id_
+*manual*: Se a execução é manual {0,1}
+*topic_id*: ID do Tópico
+*doc_id*: ID do documento de origem
+*passage*: Texto da passagem seleccionada
+*Marcação*: Rank de passagem
 
-*run_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; manual &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; topic_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; doc_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; passage &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rank*
+*run_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; manual &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; topic_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; doc_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; passagem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; classificação*
 
-### Evaluation  
-Sentence pooling and automatic metrics will be used to evaluate these results. The relevance of the source document will be evaluated as well as potential unresolved anaphora issues.
+### Avaliação  
+O agrupamento de sentenças e a métrica automática serão utilizados para avaliar estes resultados. A relevância do documento de origem será avaliada, bem como as potenciais questões de anáfora não resolvidas.
 
-OUTPUT example:
+Exemplo de SAÍDA:
 
 | run_id | manual | topic_id | doc_id | passage | rank |
 |:-------|:-------|:---------|:-------|:--------|:-----|
-| ST1_1 | 1 | 1 | 3000234933 | People are becoming increasingly comfortable using Digital Assistants (DAs) to interact with services or connected objects. | 1 |
-| ST1_1 | 1 | 1 | 3003409254 | big data and machine learning (ML) algorithms can result in discriminatory decisions against certain protected groups defined upon personal data like gender, race, sexual orientation etc. | 2 |
-| ST1_1 | 1 | 1 | 3003409254 | Such algorithms designed to discover patterns in big data might not only pick up any encoded societal biases in the training data, but even worse, they might reinforce such biases resulting in more severe discrimination. | 3 |  
+| ST1_1 | 1 | 1 | 3000234933 | As pessoas estão a ficar cada vez mais confortáveis a usar Assistentes Digitais (DAs) para interagir com serviços ou objectos ligados. | 1 |
+| ST1_1 | 1 | 1 | 3003409254 | grandes algoritmos de aprendizagem de dados e máquinas (ML) podem resultar em decisões discriminatórias contra certos grupos protegidos definidos sobre dados pessoais como género, raça, orientação sexual, etc. | 2 |
+| ST1_1 | 1 | 1 | 3003409254 | Tais algoritmos concebidos para descobrir padrões em grandes dados podem não só detectar quaisquer vieses sociais codificados nos dados de formação, mas ainda pior, podem reforçar tais vieses resultando numa discriminação mais severa. | 3 |  
