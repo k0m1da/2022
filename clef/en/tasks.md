@@ -1,6 +1,6 @@
 # SimpleText@CLEF-2022 Shared tasks
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks)  | [Tools](./tools) 
+[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks) | [Tools](./tools) 
 [Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/tasks)
 
 ---
@@ -23,24 +23,24 @@ After registration, you will receive an email with information on how to get acc
 Participants should put their run results into the folder Documents created for their user.
 
 ### 2022 DataSet
-For this edition we use the Citation Network Dataset: DBLP+Citation, ACM Citation network ([https://www.aminer.org/citation](https://www.aminer.org/citation)). An elastic search index is provided to participants accessible through a GUI API. This Index is adequate to:
-* apply basic passage retrieval methods based on vector or language IR models
-* generate Latent Dirichlet Allocation models,
-* train Graph Neural Networks for citation recommendation as carried out in [https://stellargraph.readthedocs.io/](https://stellargraph.readthedocs.io/) for example,
-* apply deep bi directionnal transformers for query expansion.
-* and much more…
+For this edition we use the Citation Network Dataset: DBLP+Citation, ACM Citation network ([https://www.aminer.org/citation](https://www.aminer.org/citation)). É fornecido aos participantes um índice de pesquisa elástico acessível através de uma GUI API. Este índice é adequado para:
+* aplicar métodos básicos de recuperação de passagens baseados em modelos de IR vectoriais ou linguísticos
+* gerar modelos de alocação de Dirichlet Latente,
+* formar Redes Neuronais Gráficas para recomendação de citação como realizado em [https://stellargraph.readthedocs.io/](https://stellargraph.readthedocs.io/) por exemplo,
+* aplicar transformadores bi-direccionais profundos para expansão de consulta.
+* e muito mais...
 
-### 2022 Queries
-For this edition queries are a selection of recent press titles from *The Guardian* enriched with keywords manually extracted from the content of the article. It has been checked that each keyword allows to extract at least 5 relevant abstracts. The use of these keywords is optional.
+### 2022 Consultas
+Para esta edição, as consultas são uma selecção de títulos de imprensa recentes de *The Guardian* enriquecidos com palavras-chave extraídas manualmente do conteúdo do artigo. Foi verificado que cada palavra-chave permite extrair pelo menos 5 resumos relevantes. A utilização destas palavras-chave é opcional.
 
-*Input format for all tasks:*
-* Topics are in the MD format
+*Formato de entrada para todas as tarefas:*
+*Os tópicos estão no formato MD
 
 <img src="https://github.com/simpletext-madics/2021/blob/main/clef/Query1.png?raw=true">
 
-* Full text articles from *The Guardian* (link, folder query_related_content with full texts in the MD format)
-* ElasticSearch index on the following data server (e.g.): [https://guacamole.univ-avignon.fr/nextcloud/index.php/apps/files/?dir=/simpleText/queries&fileid=570352](https://guacamole.univ-avignon.fr/nextcloud/index.php/apps/files/?dir=/simpleText/queries&fileid=570352)
-* DBLP full dump in the JSON.GZ format
-* DBLP abstracts extracted for each topic in the following MD format (doc_id, year, abstract):
+* Artigos de texto completo de *The Guardian* (link, pasta query_related_content com textos completos no formato MD)
+* Índice ElasticSearch no seguinte servidor de dados (por exemplo): [https://guacamole.univ-avignon.fr/nextcloud/index.php/apps/files/?dir=/simpleText/queries&fileid=570352](https://guacamole.univ-avignon.fr/nextcloud/index.php/apps/files/?dir=/simpleText/queries&fileid=570352)
+* DBLP full dump no formato JSON.GZ
+* Resumos DBLP extraídos para cada tópico no seguinte formato MD (doc_id, ano, resumo):
 
-<img src="https://github.com/simpletext-madics/2021/blob/main/clef/MDformat.png?raw=true">
+<img src="https://github.com/simpletext-madics/2021/blob/main/clef/MDformat.png?raw=true"> 
