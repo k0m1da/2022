@@ -1,26 +1,27 @@
-# SimpleText@CLEF-2022 Tasks
-
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks) | [Tools](./tools) 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task3)
+# SimpleText@CLEF-2022 Tarefas
 
 
----
+[Início](./) | [Chamada para papéis](./CFP) | [Datas importantes](./dates) | [Tarefas](./tasks) | [Ferramentas](./tools) 
+[Programa](./program) | [Publicações](./publications) | [Organisadores](./organisers) | [Contactos](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task1)
 
-## SimpleText Task Guidelines
-
-We invite you to submit both automatic and manual runs! Manual intervention should be reported.
 
 ---
 
-<button>[Access](./tasks)</button> | <button>[Shared task 1](./task1)</button> | <button>[Shared task 2](./task2)</button> | <button>[Shared task 3](./task3)</button>| <button>[Unshared task 4](./task4)</button>
+## Linhas de Guia da Tareda SimpleText 
+
+Convidamo-lo a submeter tanto as execuções automáticas como manuais! A intervenção manual deve ser comunicada.
+
+---
+
+<button>[Aceder](./tasks)</button> | <button>[Tarefa partilhada 1](./task1)</button> | <button>[Tarefa partilhada 2](./task2)</button> | <button>[Tarefa partilhada 3](./task3)</button>| <button>[Tarefa não partilhada 4](./task4)</button>
 
 <br>
 
-## Task 3: Rewrite this! Given a query, simplify passages from scientific abstracts. 
+## Tarefa 3: Reescrever isto! Dada uma consulta, simplificar passagens de resumos científicos. 
 
-The goal of this task is to provide a simplified version of text passages. Participants will be provided with queries and abstracts of scientific papers. The abstracts can be split into sentences as in the exemple [https://guacamole.univ-avignon.fr/nextcloud/index.php/s/SQTdS2Yowf9dxNa](https://guacamole.univ-avignon.fr/nextcloud/index.php/s/SQTdS2Yowf9dxNa). The simplified passages will be evaluated manually with eventual use of aggregating metrics.
+O objectivo desta tarefa é fornecer uma versão simplificada de passagens de texto. Serão fornecidas aos participantes consultas e resumos de artigos científicos. Os resumos podem ser divididos em frases, como no exemplo [https://guacamole.univ-avignon.fr/nextcloud/index.php/s/SQTdS2Yowf9dxNa](https://guacamole.univ-avignon.fr/nextcloud/index.php/s/SQTdS2Yowf9dxNa). As passagens simplificadas serão avaliadas manualmente com eventual utilização de métricas de agregação.
 
-*Output format:*  
+*Formato de saída:* 
 
 Passagens simplificadas num ficheiro tabelado TSV com os seguintes campos:
 *run_id*: Run ID começando com team_id_
