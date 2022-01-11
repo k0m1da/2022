@@ -1,25 +1,25 @@
-# SimpleText@CLEF-2022 Tasks
+# SimpleText@CLEF-2022 Tarefas
 
 
-[Home](./) | [Call for papers](./CFP) | [Important dates](./dates) | [Tasks](./tasks) | [Tools](./tools) 
-[Program](./program) | [Publications](./publications) | [Organisers](./organisers) | [Contact](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task1)
+[Início](./) | [Chamada para papéis](./CFP) | [Datas importantes](./dates) | [Tarefas](./tasks) | [Ferramentas](./tools) 
+[Programa](./program) | [Publicações](./publications) | [Organisadores](./organisers) | [Contactos](./contact) | [<img src="https://github.com/simpletext-madics/2021/blob/main/clef/FR.png?raw=true" width="30">](../fr/task1)
 
 
 ---
 
-## SimpleText Task Guidelines
+## Linhas de Guia da Tareda SimpleText 
 
-We invite you to submit both automatic and manual runs! Manual intervention should be reported.
+Convidamo-lo a submeter tanto as execuções automáticas como manuais! A intervenção manual deve ser comunicada.
 
 ---
 
-<button>[Access](./tasks)</button> | <button>[Shared task 1](./task1)</button> | <button>[Shared task 2](./task2)</button> | <button>[Shared task 3](./task3)</button>| <button>[Unshared task 4](./task4)</button>
+<button>[Aceder](./tasks)</button> | <button>[Tarefa partilhada 1](./task1)</button> | <button>[Tarefa partilhada 2](./task2)</button> | <button>[Tarefa partilhada 3](./task3)</button>| <button>[Tarefa não partilhada 4](./task4)</button>
 
 <br>
 
-## Task 1:  What is in (or out)? Select passages to include in a simplified summary, given a query.
+## Tarefa 1: O que está dentro (ou fora)? Seleccione passagens a incluir num resumo simplificado, dada uma consulta.
 
-Given an article from a major international newspaper general audience, this task aims at retrieving from a large scientific bibliographic database with abstracts, all passages that would be relevant to illustrate this article. Extracted passages should be adequate to be inserted as plain citations in the original paper. Sentence pooling and automatic metrics will be used to evaluate these results. The relevance of the source document will be evaluated as well as potential unresolved anaphora issues.
+Dado um artigo de um grande público internacional, esta tarefa visa recuperar de uma grande base de dados bibliográficos científicos com resumos, todas as passagens que seriam relevantes para ilustrar este artigo. As passagens extraídas devem ser adequadas para serem inseridas como citações simples no artigo original. O agrupamento de frases e as métricas automáticas serão utilizados para avaliar estes resultados. A relevância do documento de origem será avaliada, bem como as potenciais questões de anáfora não resolvidas.
 
 *Formato de saída:*  
  
